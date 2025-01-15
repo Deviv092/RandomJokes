@@ -1,0 +1,34 @@
+body {
+    background-color: #1c78c8; /* Light blue background */
+    color: #333; /* Dark text color */
+    font-family: 'Arial', sans-serif; /* Font style */
+    text-align: center; /* Center text */
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.container {
+    max-width: 600px; /* Max width for the container */
+    padding: 20px; /* Padding around the container */
+}
+
+.joke-card {
+    background-color: #b7d355; /* White background for joke card */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    margin-top: 20px; /* Margin above the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.joke-category, .joke-text, .joke-punchline {
+    margin: 10px 0; /* Margin for spacing */
+}
+
+.joke-punchline {
+    font-weight: bold; /* Make punchline bold */
+    color: #cd231e; /* Attractive color for punchline (Bootstrap's danger color) */
+}
